@@ -1,0 +1,232 @@
+{
+  "asof": "2026-11-24",
+  "emtp": {
+    "total": 2629,
+    "graduates": 4666,
+    "schools": 63,
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 481
+      },
+      {
+        "name": "Llanquihue",
+        "value": 1313
+      },
+      {
+        "name": "Osorno",
+        "value": 835
+      }
+    ]
+  },
+  "ado": {
+    "total": 3019,
+    "schools": 460,
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 354
+      },
+      {
+        "name": "Llanquihue",
+        "value": 1830
+      },
+      {
+        "name": "Osorno",
+        "value": 736
+      },
+      {
+        "name": "Palena",
+        "value": 99
+      }
+    ]
+  },
+  "pie": {
+    "total": 32112,
+    "students": 32088,
+    "schools": 476,
+    "updated_at": "2026-07-14",
+    "universe": "Actual = Postulado o Autorizado",
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 8635
+      },
+      {
+        "name": "Llanquihue",
+        "value": 14679
+      },
+      {
+        "name": "Osorno",
+        "value": 8437
+      },
+      {
+        "name": "Palena",
+        "value": 361
+      }
+    ]
+  },
+  "matricula": {
+    "total": 172525,
+    "men": 88838,
+    "women": 83686,
+    "schools": 874,
+    "courses": 8654,
+    "cut": "2026-08-17",
+    "territory": "DEPROV",
+    "difference_total_minus_men_women": 1,
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 33967
+      },
+      {
+        "name": "Llanquihue",
+        "value": 91177
+      },
+      {
+        "name": "Osorno",
+        "value": 45853
+      },
+      {
+        "name": "Palena",
+        "value": 1528
+      }
+    ],
+    "administrative_province_preserved": true,
+    "cem_schools": 878,
+    "cem_cut": "2026-04-30",
+    "cem_total": 172716,
+    "cem_1_5": 106,
+    "cem_6_10": 73
+  },
+  "evaluacion": {
+    "total": 2055,
+    "universe": "Profesionales en Portafolio 2025 capturados en el documento aportado",
+    "territory": "DEPROV",
+    "ecep_2025": 1700,
+    "ecep_universe": "Evaluaciones por lugar de rendición, ECEP 2025",
+    "primary_jobs_2026": 15626,
+    "staff_cut": "2026-04",
+    "recognition_cut": "2025-07",
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 483
+      },
+      {
+        "name": "Llanquihue",
+        "value": 985
+      },
+      {
+        "name": "Osorno",
+        "value": 554
+      },
+      {
+        "name": "Palena",
+        "value": 33
+      }
+    ]
+  },
+  "asistencia": {
+    "total": 60565,
+    "schools": 536,
+    "courses": 2821,
+    "year": 2025,
+    "period": "annual",
+    "series": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "rate": 85.69648488501053,
+    "days_attended": 8588506,
+    "days_worked": 10022005,
+    "territory": "DEPROV",
+    "universe": "Estudiantes únicos dentro del archivo de asistencia anual 2025 aportado; cobertura parcial por niveles y cursos",
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 13140
+      },
+      {
+        "name": "Llanquihue",
+        "value": 29262
+      },
+      {
+        "name": "Osorno",
+        "value": 17636
+      },
+      {
+        "name": "Palena",
+        "value": 527
+      }
+    ]
+  },
+  "convivencia": {
+    "total": 902,
+    "previous_comparable": 1015,
+    "annual_2025": 1566,
+    "convivencia_2026": 713,
+    "period": "Enero–septiembre 2026",
+    "cut": "2026-09-30",
+    "preliminary": true,
+    "territory": "DEPROV",
+    "universe": "Denuncias SIE ingresadas, no hechos acreditados; IDPS y avisos SEREMI son fuentes independientes",
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 139
+      },
+      {
+        "name": "Llanquihue",
+        "value": 607
+      },
+      {
+        "name": "Osorno",
+        "value": 145
+      },
+      {
+        "name": "Palena",
+        "value": 11
+      }
+    ]
+  },
+  "trayectorias": {
+    "total": 33071,
+    "cut": "2026-09-30",
+    "source": "3.er Reporte 2026 · SIGE / MINEDUC · Octubre 2026",
+    "territory": "DEPROV",
+    "universe": "Educación General: asistencia bajo 85%; EPJA se consulta por separado",
+    "attendance_enrollment": 152227,
+    "rate": 21.72479257950298,
+    "schools": 869,
+    "attendance_schools": 818,
+    "without_enrollment_2025_2026": 3069,
+    "epja": {
+      "schools": 59,
+      "attendance_enrollment": 6726,
+      "below_85": 2262,
+      "without_enrollment_2025_2026": 2609
+    },
+    "provinces": [
+      {
+        "name": "Chiloé",
+        "value": 6709
+      },
+      {
+        "name": "Llanquihue",
+        "value": 18098
+      },
+      {
+        "name": "Osorno",
+        "value": 7807
+      },
+      {
+        "name": "Palena",
+        "value": 457
+      }
+    ]
+  }
+}

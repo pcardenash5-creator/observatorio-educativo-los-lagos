@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Explore los dashboards de titulación EMTP, autorizaciones docentes, Programa de Integración Escolar, establecimientos y matrícula escolar, evaluación y desarrollo profesional docente, asistencia escolar, convivencia y bienestar educativo y trayectorias educativas 2026 de la Región de Los Lagos. Información territorial para el diagnóstico regional 2027.">
+  <title>Observatorio Educativo · Los Lagos</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./branding.css">
+  <link rel="preload" href="./assets/fonts/gobcl-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./modern.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Observatorio Educativo Los Lagos, inicio">
+        <img class="seremi-logo" src="./assets/logo-seremi-educacion-los-lagos.png" width="1134" height="1030" alt="SEREMI de Educación, Región de Los Lagos" decoding="async" fetchpriority="high">
+        <span><strong>Observatorio educativo</strong><span class="brand-region">REGIÓN DE LOS LAGOS</span></span>
+      </a>
+      <div class="institutional-policy"><img class="policy-logo" src="./assets/logo-chile-aprende-y-avanza.png" width="217" height="142" alt="Chile Aprende y Avanza · Ministerio de Educación" decoding="async" fetchpriority="high"></div>
+      <nav class="home-nav" aria-label="Navegación principal">
+        <a class="nav-current" href="#paneles">Dashboards <span>08</span></a>
+        <a href="#datos">Sobre los datos</a>
+      </nav>
+      <div class="header-context"><span class="status-dot"></span> Diagnóstico regional <strong>2027</strong></div>
+      <a class="back-home" href="#inicio" aria-label="Volver al portal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6M8 12h13"/></svg><span>Volver al portal</span></a>
+    </div>
+  </header>
+
+  <main id="main" class="home" tabindex="-1">
+    <section class="hero content-width" aria-labelledby="hero-title">
+      <div class="hero-main">
+        <div class="eyebrow"><span class="eyebrow-line"></span> INFORMACIÓN PARA LA MEJORA EDUCATIVA</div>
+        <h1 id="hero-title">Una mirada a los datos.<br><em>Más perspectiva para decidir.</em></h1>
+        <p class="hero-description">Explore la información educativa de Los Lagos en un solo lugar. Ocho dashboards interactivos para conocer el territorio y apoyar el diagnóstico regional 2027.</p>
+        <a class="hero-link" href="#paneles">Explorar dashboards <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a>
+      </div>
+      <aside class="edition" aria-label="Actualización del portal y períodos de los datos">
+        <div class="edition-label">ACTUALIZACIÓN DEL PORTAL</div>
+        <div class="edition-date">24<span>NOVIEMBRE<br>2026</span></div>
+        <div class="edition-rule"></div>
+        <p>Datos de los períodos <strong>2017 a 2026</strong></p>
+        <span class="edition-source">SEREMI de Educación · Los Lagos</span>
+      </aside>
+    </section>
+
+    <section id="paneles" class="dashboards-section content-width" aria-labelledby="panels-title">
+      <div class="section-heading"><div><div class="eyebrow">CONSULTA INTERACTIVA</div><h2 id="panels-title">Elija un dashboard</h2></div><span class="section-note"><span class="status-dot"></span> Filtros, gráficos y descarga de datos</span></div>
+      <div class="dashboard-grid">
+        <article class="dashboard-card card-emtp">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> FORMACIÓN TÉCNICO-PROFESIONAL</span><span class="panel-number">01</span></div>
+          <h3>Titulación EMTP</h3>
+          <p class="card-description">Egresados de IV medio TP 2025 y títulos registrados en 2026, con detalle territorial, por establecimiento y especialidad.</p>
+          <div class="period-tag">Egresados 2025 <span>↔</span> Títulos 2026</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Títulos registrados 2026</div><strong id="emtp-total">2.629</strong><span><b id="emtp-graduates">4.666</b> egresados EMTP 2025</span></div>
+            <div class="mini-chart"><div class="chart-heading">TÍTULOS 2026 POR DEPROV</div><div id="emtp-chart" class="chart-rows" aria-label="Títulos 2026 por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Chiloé · Llanquihue · Osorno <span class="coverage-detail">Sin antecedentes de Palena</span></div>
+          <div class="card-actions"><a class="open-panel" href="#emtp">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/emtp.html" target="_blank" rel="noopener" aria-label="Abrir titulación EMTP en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-ado">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> EJERCICIO DE LA FUNCIÓN DOCENTE</span><span class="panel-number">02</span></div>
+          <h3>Autorizaciones docentes</h3>
+          <p class="card-description">Solicitudes ADO, estados de autorización y perfiles académicos, con filtros por territorio, nivel de enseñanza y asignatura.</p>
+          <div class="period-tag">Procesos 2025 y 2026 <span>·</span> Comparación entre años</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Solicitudes únicas 2026</div><strong id="ado-total">3.019</strong><span><b id="ado-schools">460</b> establecimientos en 2026</span></div>
+            <div class="mini-chart"><div class="chart-heading">SOLICITUDES 2026 POR DEPROV</div><div id="ado-chart" class="chart-rows" aria-label="Solicitudes únicas ADO 2026 por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">Jurisdicción DEPROV</span></div>
+          <div class="card-actions"><a class="open-panel" href="#ado">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/ado.html" target="_blank" rel="noopener" aria-label="Abrir autorizaciones docentes en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-pie">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> PROGRAMA DE INTEGRACIÓN ESCOLAR</span><span class="panel-number">03</span></div>
+          <h3>Programa de Integración Escolar</h3>
+          <p class="card-description">Registros PIE 2026, estudiantes únicos y necesidades educativas, con filtros por DEPROV, comuna, RBD, dependencia, enseñanza, diagnóstico y estado.</p>
+          <div class="period-tag">PIE 2026 <span>·</span> Resumen: Postulado y Autorizado</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Registros del resumen PIE 2026</div><strong id="pie-total">32.112</strong><span><b id="pie-students">32.088</b> estudiantes únicos</span><span><b id="pie-schools">476</b> establecimientos</span></div>
+            <div class="mini-chart"><div class="chart-heading">REGISTROS PIE DEL RESUMEN POR DEPROV</div><div id="pie-chart" class="chart-rows" aria-label="Registros PIE 2026 del resumen por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">Última actualización registrada: 14/07/2026</span></div>
+          <div class="card-actions"><a class="open-panel" href="#pie">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/pie.html" target="_blank" rel="noopener" aria-label="Abrir Programa de Integración Escolar en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-matricula">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> SISTEMA EDUCATIVO REGIONAL</span><span class="panel-number">04</span></div>
+          <h3>Establecimientos y matrícula</h3>
+          <p class="card-description">878 establecimientos CEM de abril y matrícula SEREMI de agosto, con cortes diferenciados, tramos de baja matrícula y buscador directo por RBD independiente de los filtros.</p>
+          <div class="period-tag">CEM abril 2026 <span>·</span> Matrícula agosto 2026</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Matrícula informada · agosto 2026</div><strong id="matricula-total">172.525</strong><span>CEM abril: <b id="matricula-cem-schools">878</b> RBD con matrícula positiva</span><span>Agosto: <b id="matricula-schools">874</b> establecimientos</span><span><b id="matricula-courses">8.654</b> registros de curso</span></div>
+            <div class="mini-chart"><div class="chart-heading">MATRÍCULA AGOSTO 2026 POR DEPROV</div><div id="matricula-chart" class="chart-rows" aria-label="Matrícula total informada al 17 de agosto de 2026 por jurisdicción educativa DEPROV"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">30 comunas · Buscador por RBD para los 878 del CEM</span></div>
+          <div class="card-actions"><a class="open-panel" href="#matricula">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/matricula.html" target="_blank" rel="noopener" aria-label="Abrir establecimientos y matrícula en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-evaluacion">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> EVALUACIÓN Y DESARROLLO PROFESIONAL</span><span class="panel-number">05</span></div>
+          <h3>Evaluación y desarrollo profesional docente</h3>
+          <p class="card-description">Resultados de Portafolio y ECEP, junto con la caracterización de Carrera Docente. Explore el territorio, las pruebas, los aspectos evaluados, los tramos y los establecimientos, con fuentes y cortes diferenciados.</p>
+          <div class="period-tag">Portafolio 2025 <span>·</span> ECEP 2024–2025 <span>·</span> SIGE abril 2026</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Profesionales en Portafolio 2025</div><strong id="evaluacion-total">2.055</strong><span>ECEP 2025: <b id="evaluacion-ecep">1.700</b> evaluaciones</span><span>SIGE abril 2026: <b id="evaluacion-primary">15.626</b> docentes con cargo principal</span></div>
+            <div class="mini-chart"><div class="chart-heading">PROFESIONALES EN PORTAFOLIO 2025 POR DEPROV</div><div id="evaluacion-chart" class="chart-rows" aria-label="Profesionales en Portafolio 2025 por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> DEPROV: Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">Reconocimiento y tramos: julio 2025 · Poblaciones independientes</span></div>
+          <div class="card-actions"><a class="open-panel" href="#evaluacion">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/evaluacion-docente.html" target="_blank" rel="noopener" aria-label="Abrir evaluación y desarrollo profesional docente en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-asistencia">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> ASISTENCIA Y TRAYECTORIAS EDUCATIVAS</span><span class="panel-number">06</span></div>
+          <h3>Asistencia escolar</h3>
+          <p class="card-description">Evolución anual, mensual y acumulada, con filtros por DEPROV, comuna, sostenedor, establecimiento, enseñanza y curso. Resultados de los archivos disponibles.</p>
+          <div class="period-tag">Serie 2022–2025 <span>·</span> Vista inicial: anual 2025</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Estudiantes en el archivo 2025</div><strong id="asistencia-total">60.565</strong><span><b id="asistencia-schools">536</b> establecimientos</span><span>Tasa de asistencia: <b id="asistencia-rate">85,7 %</b></span></div>
+            <div class="mini-chart"><div class="chart-heading">ESTUDIANTES DEL ARCHIVO 2025 POR DEPROV</div><div id="asistencia-chart" class="chart-rows" aria-label="Estudiantes del archivo de asistencia 2025 por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> DEPROV: Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">Cobertura parcial por niveles y cursos</span></div>
+          <div class="card-actions"><a class="open-panel" href="#asistencia">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/asistencia.html" target="_blank" rel="noopener" aria-label="Abrir asistencia escolar en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-convivencia">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> CONVIVENCIA Y BIENESTAR EDUCATIVO</span><span class="panel-number">07</span></div>
+          <h3>Convivencia y bienestar educativo</h3>
+          <p class="card-description">Resultados IDPS, denuncias SIE y avisos administrativos de bienestar y prevención, con períodos y filtros propios de cada fuente. Incluye 29 desgloses de las bases SIE y una tabla agregada por establecimiento.</p>
+          <div class="period-tag">IDPS 2025 e historia <span>·</span> SIE 2025–2026 <span>·</span> Avisos SEREMI 2026</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Denuncias SIE ene–sep 2026 · preliminar</div><strong id="convivencia-total">902</strong><span><b id="convivencia-previous">1.015</b> denuncias en ene–sep 2025</span><span><b id="convivencia-convivencia">713</b> corresponden a convivencia en 2026</span></div>
+            <div class="mini-chart"><div class="chart-heading">DENUNCIAS SIE ENE–SEP 2026 POR DEPROV</div><div id="convivencia-chart" class="chart-rows" aria-label="Denuncias ingresadas SIE entre enero y septiembre de 2026 por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> DEPROV: Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">SIE: corte de ingresos 30/09/2026 · Avisos SEREMI: 22/10/2026</span></div>
+          <div class="card-actions"><a class="open-panel" href="#convivencia">Explorar dashboard <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a><a class="standalone-link" href="./paneles/convivencia-bienestar.html" target="_blank" rel="noopener" aria-label="Abrir convivencia y bienestar educativo en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+        <article class="dashboard-card card-trayectorias">
+          <div class="card-top"><span class="panel-category"><span class="category-square"></span> PERMANENCIA Y REVINCULACIÓN</span></div>
+          <h3>Trayectorias educativas 2026</h3>
+          <p class="card-description">Asistencia, estudiantes sin matrícula vigente y alertas para la gestión. Explore ocho vistas con filtros por DEPROV, comuna, dependencia, sostenedor y establecimiento; Educación General y EPJA se consultan por separado.</p>
+          <div class="period-tag">3.er reporte 2026 <span>·</span> Corte SIGE: 30/09/2026</div>
+          <div class="card-data">
+            <div class="snapshot"><div class="snapshot-label">Asistencia bajo 85% · Educación General</div><strong id="trayectorias-total">33.071</strong><span>21,7 % de 152.227 matrículas de asistencia</span><span>3.069 sin matrícula vigente en cohortes 2025–2026</span></div>
+            <div class="mini-chart"><div class="chart-heading">BAJO 85% POR DEPROV · EDUCACIÓN GENERAL</div><div id="trayectorias-chart" class="chart-rows" aria-label="Estudiantes de Educación General con asistencia bajo 85 por ciento, por Departamento Provincial"></div></div>
+          </div>
+          <div class="card-footnote">DEPROV: Chiloé · Llanquihue · Osorno · Palena <span class="coverage-detail">EPJA: Chiloé · Llanquihue · Osorno</span></div>
+          <div class="card-actions"><a class="open-panel" href="#trayectorias">Explorar dashboard</a><a class="standalone-link" href="./paneles/trayectorias.html" target="_blank" rel="noopener" aria-label="Abrir trayectorias educativas 2026 en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg></a></div>
+        </article>
+      </div>
+      <p class="snapshot-note">Las cifras de portada corresponden a la vista regional inicial de cada dashboard. En PIE se utiliza el resumen del Excel: estados actuales Postulado y Autorizado. Establecimientos y matrícula distingue los 878 RBD CEM de abril de los 874 RBD SEREMI de agosto. La cifra principal y el gráfico corresponden a agosto, agrupado por DEPROV, y conservan el total y su observación de consistencia. En evaluación docente, la cifra principal corresponde a Portafolio 2025; ECEP y Carrera Docente tienen poblaciones y cortes propios. En asistencia se muestran los registros disponibles de 2025, con cobertura parcial por niveles y cursos. En convivencia y bienestar, la cifra de portada corresponde a denuncias SIE de enero a septiembre de 2026; IDPS y avisos SEREMI se consultan como fuentes independientes. En trayectorias 2026, la cifra y el gráfico corresponden a asistencia bajo 85% de Educación General; EPJA es un universo independiente. El corte SIGE es del 30 de septiembre y no se suma a la serie de asistencia 2022–2025. Las fechas de los datos se indican en cada panel.</p>
+    </section>
+
+    <section id="datos" class="data-context content-width" aria-labelledby="data-title">
+      <div class="data-intro"><div class="eyebrow">CONTEXTO Y ALCANCE</div><h2 id="data-title">Los datos se entienden<br>con su contexto.</h2><p>Revise las fuentes y la metodología de cada dashboard para interpretar sus resultados.</p></div>
+      <div class="context-notes">
+        <div class="context-item"><span class="context-index">01</span><div><h3>EMTP: dos universos de referencia</h3><p>Los títulos registrados en 2026 y los egresados de 2025 pertenecen a universos distintos. Su relación es referencial y <strong>no constituye una tasa de titulación por cohorte</strong>. La cobertura no incluye Palena.</p></div></div>
+        <div class="context-item"><span class="context-index">02</span><div><h3>ADO: solicitudes administrativas</h3><p>La unidad principal es la solicitud única de autorización. Una solicitud puede incluir varios niveles o asignaturas. Los resultados <strong>no equivalen automáticamente a déficit de dotación docente</strong>.</p></div></div>
+        <div class="context-item"><span class="context-index">03</span><div><h3>PIE: registros y estudiantes únicos</h3><p>La vista inicial reproduce el resumen del Excel y permite consultar la base completa. Distingue <strong>registros administrativos de estudiantes únicos</strong> y presenta información agregada, sin RUN ni fechas de nacimiento. No calcula cobertura respecto de la matrícula total.</p></div></div>
+        <div class="context-item"><span class="context-index">04</span><div><h3>Establecimientos y matrícula: dos cortes diferenciados</h3><p>CEM registra 878 RBD con matrícula positiva al <strong>30 de abril de 2026</strong>; SEREMI informa 172.525 matrículas en 874 RBD al <strong>17 de agosto de 2026</strong>. Los cortes no se suman. La base de agosto conserva la diferencia de una matrícula entre el total y hombres más mujeres. La consulta directa por RBD abarca los 878 del CEM, aunque estén activos otros filtros. DEPROV y provincia administrativa se mantienen como dimensiones distintas.</p></div></div>
+        <div class="context-item"><span class="context-index">05</span><div><h3>Evaluación docente: fuentes y períodos distintos</h3><p>Portafolio 2025, ECEP 2024–2025 y los cargos SIGE de abril de 2026 con reconocimiento a julio de 2025 describen <strong>poblaciones independientes</strong>. Se conservan las reservas de ECEP y los aspectos de Portafolio pendientes de revisión de escala. La consulta utiliza datos agregados, sin identificadores personales, y ubica Hualaihué en la DEPROV Llanquihue.</p></div></div>
+        <div class="context-item"><span class="context-index">06</span><div><h3>Asistencia: cobertura de los archivos disponibles</h3><p>La serie 2022–2025 incluye estudiantes únicos dentro de cada archivo anual. Sus resultados <strong>no representan automáticamente toda la matrícula regional</strong>, debido a la cobertura desigual por niveles y cursos. Las tasas se calculan con días asistidos y trabajados; los meses sin información se mantienen como datos no disponibles. Los años no se suman como personas distintas.</p></div></div>
+        <div class="context-item"><span class="context-index">07</span><div><h3>Convivencia y bienestar: instrumentos y alcances propios</h3><p>IDPS presenta puntajes publicados, sin recalcular la referencia regional. La SIE registra <strong>denuncias ingresadas, no hechos acreditados</strong>; 2026 es preliminar y se compara enero–septiembre en ambos años. Los avisos SEREMI tienen corte al 22 de octubre de 2026 y conservan sus aperturas de resguardo. No se suman fuentes ni se infieren relaciones causales entre ellas.</p></div></div>
+        <div class="context-item"><div><h3>Trayectorias 2026: seguimiento al corte SIGE</h3><p>Educación General y EPJA se analizan por separado al <strong>30 de septiembre de 2026</strong>. La asistencia bajo 85% utiliza matrícula de asistencia; los casos sin matrícula 2025–2026 tienen una base de seguimiento distinta y no equivalen a una tasa anual de deserción. La cohorte 2024 se presenta aparte, con sus diferencias originales por grado. Las alertas son criterios configurables para apoyar la gestión.</p></div></div>
+      </div>
+    </section>
+    <footer class="site-footer"><div class="content-width footer-inner"><div><strong>Observatorio educativo · Los Lagos</strong><span>Diagnóstico regional 2027</span></div><p>Fuentes: Registro Curricular SEREMI · Egresados IV medio EMTP 2025 · Reporte Completo ADO MINEDUC · Consolidado PIE 2026 · Centro de Estudios MINEDUC abril 2026 · Matrícula oficial agosto 2026, SEREMI Los Lagos · Portafolio 2025 · ECEP 2024–2025 · SIGE abril 2026 y reconocimiento julio 2025 · Archivos de asistencia anual 2022–2025 · IDPS 2025 y series históricas · Bases SIE 2025 anual y tercer informe 2026 · Avisos SEREMI y actividades MINEDUC–MINSAL 2026 · Tercer reporte de trayectorias educativas 2026, SIGE / MINEDUC, corte 30/09/2026.</p><a href="#inicio">Volver arriba ↑</a></div><div id="uso-interno" class="institutional-notice content-width" aria-label="Uso institucional y autoría"><p>El Observatorio Educativo de Los Lagos es una herramienta de trabajo de uso interno, destinada a las y los funcionarios del Ministerio de Educación de la Región de Los Lagos. Ha sido diseñado por el Departamento de Educación Regional para apoyar la elaboración del Diagnóstico Regional 2027. No se autoriza su uso con fines comerciales.</p></div></footer>
+  </main>
+
+  <section id="viewer" class="viewer" aria-label="Visor de dashboards" hidden>
+    <div class="viewer-toolbar">
+      <div class="viewer-switch" role="tablist" aria-label="Seleccionar dashboard"><a id="tab-emtp" role="tab" aria-selected="false" aria-controls="panel-emtp" href="#emtp" data-panel="emtp"><span class="tab-dot emtp-dot"></span>Titulación EMTP</a><a id="tab-ado" role="tab" aria-selected="false" aria-controls="panel-ado" href="#ado" data-panel="ado"><span class="tab-dot ado-dot"></span>Autorizaciones docentes</a><a id="tab-pie" role="tab" aria-selected="false" aria-controls="panel-pie" aria-label="Programa de Integración Escolar" href="#pie" data-panel="pie"><span class="tab-dot pie-dot"></span>PIE</a><a id="tab-matricula" role="tab" aria-selected="false" aria-controls="panel-matricula" href="#matricula" data-panel="matricula"><span class="tab-dot matricula-dot"></span>Establecimientos y matrícula</a><a id="tab-evaluacion" role="tab" aria-selected="false" aria-controls="panel-evaluacion" href="#evaluacion" data-panel="evaluacion"><span class="tab-dot evaluacion-dot"></span>Evaluación docente</a><a id="tab-asistencia" role="tab" aria-selected="false" aria-controls="panel-asistencia" href="#asistencia" data-panel="asistencia"><span class="tab-dot asistencia-dot"></span>Asistencia escolar</a><a id="tab-convivencia" role="tab" aria-selected="false" aria-controls="panel-convivencia" href="#convivencia" data-panel="convivencia"><span class="tab-dot convivencia-dot"></span>Convivencia y bienestar</a><a id="tab-trayectorias" role="tab" aria-selected="false" aria-controls="panel-trayectorias" href="#trayectorias" data-panel="trayectorias"><span class="tab-dot trayectorias-dot"></span>Trayectorias 2026</a></div>
+      <div class="viewer-actions"><button id="fullscreen" type="button" title="Ampliar el visor" aria-label="Ampliar el visor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg><span>Ampliar</span></button><a id="open-original" href="./paneles/emtp.html" target="_blank" rel="noopener" title="Abrir el dashboard en una nueva pestaña"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6-10 10M10 4H4v16h16v-6"/></svg><span>Nueva pestaña</span></a></div>
+    </div>
+    <div class="viewer-stage" id="viewer-stage">
+      <div id="panel-emtp" class="frame-panel" role="tabpanel" aria-labelledby="tab-emtp" hidden><iframe id="frame-emtp" title="Dashboard interactivo de titulación EMTP de Los Lagos" data-src="./paneles/emtp.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-ado" class="frame-panel" role="tabpanel" aria-labelledby="tab-ado" hidden><iframe id="frame-ado" title="Dashboard interactivo de autorizaciones docentes de Los Lagos" data-src="./paneles/ado.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-pie" class="frame-panel" role="tabpanel" aria-labelledby="tab-pie" hidden><iframe id="frame-pie" title="Dashboard interactivo del Programa de Integración Escolar 2026 de Los Lagos" data-src="./paneles/pie.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-matricula" class="frame-panel" role="tabpanel" aria-labelledby="tab-matricula" hidden><iframe id="frame-matricula" title="Dashboard interactivo de establecimientos CEM abril y matrícula SEREMI agosto 2026 de Los Lagos" data-src="./paneles/matricula.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-evaluacion" class="frame-panel" role="tabpanel" aria-labelledby="tab-evaluacion" hidden><iframe id="frame-evaluacion" title="Dashboard interactivo de evaluación y desarrollo profesional docente de Los Lagos" data-src="./paneles/evaluacion-docente.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-asistencia" class="frame-panel" role="tabpanel" aria-labelledby="tab-asistencia" hidden><iframe id="frame-asistencia" title="Dashboard interactivo de asistencia escolar 2022 a 2025 de Los Lagos" data-src="./paneles/asistencia.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-convivencia" class="frame-panel" role="tabpanel" aria-labelledby="tab-convivencia" hidden><iframe id="frame-convivencia" title="Dashboard interactivo de convivencia y bienestar educativo de Los Lagos" data-src="./paneles/convivencia-bienestar.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="panel-trayectorias" class="frame-panel" role="tabpanel" aria-labelledby="tab-trayectorias" hidden><iframe id="frame-trayectorias" title="Dashboard interactivo de trayectorias educativas 2026 de Los Lagos, Educación General y EPJA" data-src="./paneles/trayectorias.html" allow="fullscreen" loading="eager"></iframe></div>
+      <div id="viewer-loading" class="viewer-loading" role="status" hidden><span class="loading-ring"></span><strong>Preparando el dashboard</strong><span>Cargando datos, filtros y gráficos…</span></div>
+      <div id="viewer-error" class="viewer-error" role="alert" hidden><h2>No se pudo cargar el dashboard</h2><p>Vuelva a intentarlo o ábralo en una nueva pestaña.</p><button id="retry-panel" type="button">Volver a cargar</button><a id="fallback-original" href="./paneles/emtp.html" target="_blank" rel="noopener">Abrir en una nueva pestaña ↗</a></div>
+    </div>
+    <div class="viewer-caption"><span id="viewer-caption-text">Egresados 2025 · Títulos 2026 · Corte 16/10/2026</span><a id="download-original" href="./paneles/emtp.html" download="Dashboard_EMTP_Los_Lagos.html">Descargar dashboard HTML ↓</a></div>
+    <div class="viewer-institutional-notice"><span>Herramienta de uso interno del Ministerio de Educación de la Región de Los Lagos. No se autoriza su uso con fines comerciales.</span><a href="#uso-interno">Uso institucional y autoría</a></div>
+  </section>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

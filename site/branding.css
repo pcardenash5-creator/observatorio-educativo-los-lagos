@@ -1,0 +1,74 @@
+/* Institutional artwork is kept intact; sizing preserves each aspect ratio. */
+:root{--header-h:112px}
+.header-inner{gap:28px}
+.brand{gap:16px;min-width:0}
+.seremi-logo{display:block;width:86px;height:auto;flex-shrink:0;object-fit:contain}
+.institutional-policy{display:flex;align-items:center;justify-content:center;flex-shrink:0;border-left:1px solid var(--line);padding-left:24px}
+.policy-logo{display:block;width:112px;height:auto;object-fit:contain}
+.home-nav{gap:24px}
+.header-context{padding-left:22px}
+.in-viewer{--header-h:88px}
+.in-viewer .seremi-logo{width:66px}
+.in-viewer .brand{gap:13px}
+.in-viewer .policy-logo{width:88px}
+.in-viewer .institutional-policy{padding-left:22px}
+@media(max-width:1100px){
+  .header-inner{gap:24px}
+  .seremi-logo{width:82px}
+  .policy-logo{width:108px}
+  .institutional-policy{padding-left:22px}
+}
+@media(max-width:800px){
+  :root{--header-h:104px}
+  .header-inner{gap:19px}
+  .brand{gap:13px}
+  .seremi-logo{width:78px}
+  .policy-logo{width:98px}
+  .institutional-policy{padding-left:18px}
+  .home-nav{gap:18px}
+  .in-viewer{--header-h:82px}
+  .in-viewer .seremi-logo{width:62px}
+  .in-viewer .policy-logo{width:85px}
+  .in-viewer .institutional-policy{padding-left:18px}
+}
+@media(max-width:680px){
+  .home-nav a:nth-child(2){display:none}
+  .brand strong{font-size:14px}
+}
+@media(max-width:580px){
+  :root{--header-h:102px}
+  .header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px}
+  .home-nav{display:none}
+  .brand{gap:12px}
+  .brand strong{font-size:12px;letter-spacing:-.2px}
+  .brand-region{font-size:7px;letter-spacing:1.25px;line-height:1.5}
+  .seremi-logo{width:76px}
+  .policy-logo{width:88px}
+  .institutional-policy{padding-left:14px}
+  .in-viewer{--header-h:72px}
+  .in-viewer .site-header{height:var(--header-h)}
+  .in-viewer .header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:10px;width:calc(100% - 24px)}
+  .in-viewer .brand{gap:8px}
+  .in-viewer .brand strong{font-size:11px}
+  .in-viewer .brand-region{font-size:6px;letter-spacing:.8px}
+  .in-viewer .seremi-logo{width:53px}
+  .in-viewer .policy-logo{width:73px}
+  .in-viewer .institutional-policy{padding-left:10px}
+  .in-viewer .back-home{padding:8px;margin:0;justify-content:center}
+  .in-viewer .back-home span{display:none}
+  .in-viewer .back-home svg{width:17px;height:17px}
+}
+@media(max-width:370px){
+  .header-inner{gap:10px}
+  .brand{gap:9px}
+  .seremi-logo{width:66px}
+  .policy-logo{width:78px}
+  .institutional-policy{padding-left:10px}
+  .brand strong{font-size:11px}
+  .brand-region{font-size:6px;letter-spacing:.9px}
+  .in-viewer .brand strong{font-size:9px}
+  .in-viewer .brand-region{font-size:5.5px;letter-spacing:.4px}
+  .in-viewer .seremi-logo{width:45px}
+  .in-viewer .policy-logo{width:63px}
+  .in-viewer .header-inner{gap:7px}
+}

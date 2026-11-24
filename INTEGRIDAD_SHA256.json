@@ -1,0 +1,26 @@
+{
+  "source_version": 10,
+  "source_commit": "488fd4344f7dc9c5630d5cbbde070a64bf2a1098",
+  "sha256": {
+    "site/app.js": "5aa9e957c9ceaeaabbab766f8b10c4594370ba5f691760a9770df203c31ddcf2",
+    "site/assets/fonts/gobcl-bold.woff": "9a9ef1c5725b1f1a81b03761bbd8dd21bc3a785f43db56608948992ebd8ecaf9",
+    "site/assets/fonts/gobcl-light.woff": "03fc581800993e0353db0c0712c6f77bc96bb1f4f6e70a9ed3821e08a12b0d27",
+    "site/assets/fonts/gobcl-regular.woff": "8d75c74bfe4b1b78cd71de0558e759b994e1c090de52797dd7212a9c5b51533e",
+    "site/assets/logo-chile-aprende-y-avanza.png": "19f9b978a2cf172dadec095279fe2b4c9d63368cc38778941611a20d6f684109",
+    "site/assets/logo-seremi-educacion-los-lagos.png": "577e77c7a78ea2875fda9e88acafc677512a09724999f0385fb52e70b7ad411b",
+    "site/branding.css": "0cdb3f3afd1370d8c4bf8fde2035f0ea47d49b40309edc6086cbec121ab0a2b6",
+    "site/favicon.svg": "7af87058b9d16355fc84389835dcceca386fb574b517729125e5818c8474c88f",
+    "site/index.html": "62eb1e2e216d27abd1f8467b2494299b715a6bc282f646dfd88726ab784907ef",
+    "site/modern.css": "5edcdc0db375421428c9762caa672e8b76f3d0f351737210eb31503984d7becf",
+    "site/paneles/ado.html": "d350466c73d1d6b6641a82d6c62d527e3f8f432cee373c9c15ea598333399b39",
+    "site/paneles/asistencia.html": "3baae13822f4e080fd2be6c2844e1797a0360c8fc9fdcc05ccf591aeeca5a72d",
+    "site/paneles/convivencia-bienestar.html": "a4802a44166fc066f3e1f6dedf296b9d68a004f8ede566d5c44cd9e4de47c9bc",
+    "site/paneles/emtp.html": "56a4b136548eb117ae61c54479e2d4176768d1c9dd4753e695f7df991be6bd64",
+    "site/paneles/evaluacion-docente.html": "b04afb9840df0276e5bfeffe8bf8345f9ee0f62c7ae7e012a4926407ba64aee0",
+    "site/paneles/matricula.html": "61117fccd3711e79524de0c3a5215da4a97007ff04bfc433989c265d7da94a0a",
+    "site/paneles/pie.html": "a9dcfa9fb0da1db45903212b32bee249014aaf2f761431892d37e5a890e1f27a",
+    "site/paneles/trayectorias.html": "08c8b75a6f9a1272dd7df40cbb58e69618fa1837afb626ce50cc2c392be7b14d",
+    "site/styles.css": "69827bb82f2787b21636ce647057b14e610fb41b47ed89f24dc7e42ebde99d3a",
+    "site/summary.json": "7922cc03374695a03acfc12558740315f303ee66a9971b193cf99312dac01341"
+  }
+}
