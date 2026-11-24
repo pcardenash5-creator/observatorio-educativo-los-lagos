@@ -1,8 +1,10 @@
 # Observatorio Educativo · Los Lagos
 
+[Abrir el Observatorio publicado](https://pcardenash5-creator.github.io/observatorio-educativo-los-lagos/)
+
 Versión preparada para GitHub Pages a partir de la versión 10 del Observatorio, publicada el 24 de noviembre de 2026. Los veinte archivos originales del sitio se conservan idénticos. No se modifican las bases integradas, cálculos, filtros, diseño, logotipos ni avisos institucionales.
 
-**Estado de la migración:** repositorio público y GitHub Pages configurado, con publicación autorizada. Los cambios de site/ en main se despliegan automáticamente; también se puede ejecutar el flujo manualmente.
+**Estado de la migración:** Observatorio publicado en GitHub Pages y repositorio público, con publicación autorizada. Los cambios de site/ en main se despliegan automáticamente; también se puede ejecutar el flujo manualmente.
 
 ## Contenido
 
@@ -23,7 +25,7 @@ Los archivos del portal y los dashboards están en `site/`. Sus rutas relativas 
 2. Incorporar **todo el contenido de este paquete** en la raíz del repositorio, incluyendo `.github/workflows/pages.yml` y la carpeta `site/`, en la rama `main`. No subir solamente el archivo ZIP ni agregar una carpeta contenedora adicional.
 3. En el repositorio, abrir **Settings → Pages → Build and deployment → Source** y seleccionar **GitHub Actions**.
 4. Abrir **Actions → Publicar Observatorio en GitHub Pages → Run workflow**. Las siguientes actualizaciones de site/ en main se publican automáticamente. También se puede ejecutar el flujo manualmente desde Actions con Run workflow.
-5. Esperar el despliegue correcto y abrir el enlace que GitHub indique en el entorno `github-pages` o en Settings → Pages. Esa es la dirección que se debe compartir; no se ha reservado ni verificado una dirección de GitHub en este paquete.
+5. Esperar el despliegue correcto y abrir el enlace que GitHub indique en el entorno `github-pages` o en Settings → Pages. El enlace de esta publicación figura al inicio de este documento.
 
 El sitio no requiere instalación de paquetes, compilación ni claves de acceso dentro de los archivos. El flujo usa exclusivamente las acciones oficiales de GitHub y publica la carpeta `site/`.
 
