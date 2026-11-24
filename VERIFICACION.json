@@ -9,12 +9,20 @@
   "internal_use_notice_preserved": true,
   "portal_javascript_syntax": "passed",
   "deployment_workflow": "official GitHub Pages actions; site/ artifact",
-  "github_published": false,
-  "pending": [
-    "Ejecución del despliegue y verificación remota de GitHub Pages"
-  ],
+  "github_published": true,
+  "pending": [],
   "destination_repository": "pcardenash5-creator/observatorio-educativo-los-lagos",
   "repository_visibility": "public",
   "deployment_trigger": "push main: site/** or .github/workflows/pages.yml; workflow_dispatch",
-  "publication_authorized": true
+  "publication_authorized": true,
+  "website": "https://pcardenash5-creator.github.io/observatorio-educativo-los-lagos/",
+  "deployed_commit_sha": "ce1c93607e8c531345ebcad40c0260da29f4deb2",
+  "github_actions_run_id": 45487146004,
+  "deployment_result": "success",
+  "browser_validation": {
+    "dashboards_loaded": 8,
+    "dashboard_load_errors": 0,
+    "institutional_logos_visible": true,
+    "trayectorias_general_and_epja": "passed"
+  }
 }
