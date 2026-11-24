@@ -2,7 +2,7 @@
 
 Versión preparada para GitHub Pages a partir de la versión 10 del Observatorio, publicada el 24 de noviembre de 2026. Los veinte archivos originales del sitio se conservan idénticos. No se modifican las bases integradas, cálculos, filtros, diseño, logotipos ni avisos institucionales.
 
-**Estado de la migración:** copia privada preparada. La publicación pública en GitHub Pages está pendiente de autorización expresa. El flujo de despliegue permanece manual y no se ejecuta al subir archivos.
+**Estado de la migración:** repositorio público y GitHub Pages configurado, con publicación autorizada. Los cambios de site/ en main se despliegan automáticamente; también se puede ejecutar el flujo manualmente.
 
 ## Contenido
 
@@ -22,14 +22,14 @@ Los archivos del portal y los dashboards están en `site/`. Sus rutas relativas 
 1. Crear o seleccionar un repositorio en la cuenta u organización autorizada. El nombre propuesto es `observatorio-educativo-los-lagos`.
 2. Incorporar **todo el contenido de este paquete** en la raíz del repositorio, incluyendo `.github/workflows/pages.yml` y la carpeta `site/`, en la rama `main`. No subir solamente el archivo ZIP ni agregar una carpeta contenedora adicional.
 3. En el repositorio, abrir **Settings → Pages → Build and deployment → Source** y seleccionar **GitHub Actions**.
-4. Abrir **Actions → Publicar Observatorio en GitHub Pages → Run workflow**. Las siguientes actualizaciones se publican desde Actions con Run workflow. El despliegue automático al actualizar main puede habilitarse una vez autorizada la publicación.
+4. Abrir **Actions → Publicar Observatorio en GitHub Pages → Run workflow**. Las siguientes actualizaciones de site/ en main se publican automáticamente. También se puede ejecutar el flujo manualmente desde Actions con Run workflow.
 5. Esperar el despliegue correcto y abrir el enlace que GitHub indique en el entorno `github-pages` o en Settings → Pages. Esa es la dirección que se debe compartir; no se ha reservado ni verificado una dirección de GitHub en este paquete.
 
 El sitio no requiere instalación de paquetes, compilación ni claves de acceso dentro de los archivos. El flujo usa exclusivamente las acciones oficiales de GitHub y publica la carpeta `site/`.
 
 ## Actualizaciones
 
-Modificar los archivos necesarios dentro de `site/`, enviar los cambios a `main` y ejecutar manualmente el flujo de publicación cuando corresponda. Si solo cambia una base o dashboard, comprobar que las cifras de portada y `site/summary.json` sigan correspondiendo al mismo universo y corte. Conservar Educación General y EPJA por separado y las notas metodológicas de cada fuente.
+Modificar los archivos necesarios dentro de `site/` y enviar los cambios a `main`; el flujo los publica automáticamente. Los cambios que solo afectan documentación no generan otro despliegue. Si solo cambia una base o dashboard, comprobar que las cifras de portada y `site/summary.json` sigan correspondiendo al mismo universo y corte. Conservar Educación General y EPJA por separado y las notas metodológicas de cada fuente.
 
 Este paquete es una copia independiente. Las ediciones posteriores del Observatorio en Sites no se sincronizan automáticamente con GitHub. Tras completar la migración, se debe establecer cuál será el repositorio principal de mantenimiento.
 
@@ -37,7 +37,7 @@ Este paquete es una copia independiente. Las ediciones posteriores del Observato
 
 El Observatorio Educativo de Los Lagos es una herramienta de trabajo de uso interno, destinada a las y los funcionarios del Ministerio de Educación de la Región de Los Lagos. Ha sido diseñado por el Departamento de Educación Regional para apoyar la elaboración del Diagnóstico Regional 2027. No se autoriza su uso con fines comerciales.
 
-El aviso de uso interno declara la finalidad del instrumento; no es un control de acceso. La modalidad ordinaria de GitHub Pages publica el sitio en Internet. Publicarlo desde un repositorio privado no lo hace automáticamente privado. La publicación privada de Pages requiere una organización con GitHub Enterprise Cloud y la configuración de acceso correspondiente. No se ha cambiado la audiencia ni la publicación actual del Observatorio durante la preparación de este paquete.
+El aviso de uso interno declara la finalidad del instrumento; no es un control de acceso. La modalidad ordinaria de GitHub Pages publica el sitio en Internet. Publicarlo desde un repositorio privado no lo hace automáticamente privado. La publicación privada de Pages requiere una organización con GitHub Enterprise Cloud y la configuración de acceso correspondiente. Este repositorio y su sitio de GitHub Pages son públicos. El aviso institucional de uso interno no restringe técnicamente su acceso.
 
 ## Integridad y procedencia
 
